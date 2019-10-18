@@ -7,7 +7,7 @@ function Nav(){
 
     return(
       //Navigation
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
           <Link to='/'>
           <h1 className="navbar-brand" href="/">Space Shuttle</h1>

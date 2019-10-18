@@ -29,9 +29,6 @@
     color: #343a40;
 }
 
-.footer{
-    min-height: 20vh;
-}
 
 .txt_section{
     min-height: 30vh;
@@ -66,4 +63,8 @@
     font-display: 28px !important;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    color:red;
 }

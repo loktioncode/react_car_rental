@@ -16,7 +16,7 @@ function ChooseShuttle(){
                                 <div className="form-group car" >
                                     <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
                                         <div class="carousel-inner" role="listbox">
-                                            <div class="carousel-item active">
+                                            <div class="carousel-item active choose">
                                                 <div className="col-md-12">
                                                     <div className="card h-100">
                                                         <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
@@ -35,7 +35,7 @@ function ChooseShuttle(){
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <div className="col-md-12">
+                                                <div className="col-md-12 choose">
                                                         <div className="card h-100">
                                                             <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                                                             <div className="card-body">
@@ -53,7 +53,7 @@ function ChooseShuttle(){
                                                     </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <div className="col-md-12">
+                                                <div className="col-md-12 choose">
                                                         <div className="card h-100">
                                                             <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                                                             <div className="card-body">

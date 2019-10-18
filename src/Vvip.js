@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 function Vvip(){
 
     return(
-        <div class="container">
+        <div class="container class_car">
 
                 <div class="row">
             
@@ -32,7 +32,7 @@ function Vvip(){
                 
                     </div>
                 
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 garage-items">
                 
                         <div class="row">
                 

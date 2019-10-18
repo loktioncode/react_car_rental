@@ -9,8 +9,8 @@ import './App.css';
 function Footer(){
 
     return(
-        <div className="container">
-           <footer class="footer fixed-bottom" >
+        <div className="container cont">
+           <footer >
            <div class="container">
                 <p class="m-0 text-center" style={{padding:"20px"}}>ALC 4.0 &copy; Project Phase || GCP Cloud Path || Elisha Bere</p>
            </div>

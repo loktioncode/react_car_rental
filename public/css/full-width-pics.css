@@ -3,8 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
  */
-body {
-  padding-top: 56px;
+*{
+  padding:0px;
+  margin:0px;
+
 }
 
 .bg-image-full {
