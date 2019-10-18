@@ -1,47 +1,48 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './App.css';
 
 //this below is our Nav component that returns JSX to index.html 
 function Nav(){
 
     return(
       //Navigation
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container">
           <Link to='/'>
-          <a class="navbar-brand" href="/">Car Hire React App</a>
+          <h1 className="navbar-brand" href="/">Space Shuttle</h1>
           </Link>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div className="collapse navbar-collapse" id="navbarResponsive">
 
-            <ul class="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto">
 
               <Link to='/'>
-              <li class="nav-item active">
-                <a class="nav-link">Home
+              <li className="nav-item active">
+                <a className="nav-link">Home
                 </a>
               </li>
               </Link>
 
               
               <Link to="/rentcar">
-              <li class="nav-item active">
-                <a class="nav-link">Rent Car</a>
+              <li className="nav-item active">
+                <a className="nav-link">Bookings</a>
               </li>
               </Link>
 
 
-              <Link to="/about">
-              <li class="nav-item active">
-                <a class="nav-link" >About Us</a>
+              <Link to="/garage">
+              <li className="nav-item active">
+                <a className="nav-link" >Our Garage</a>
               </li>
               </Link>
 
               <Link to="/services">
-              <li class="nav-item active">
-                <a class="nav-link">Services</a>
+              <li className="nav-item active">
+                <a className="nav-link">Services</a>
               </li>
               </Link>
 

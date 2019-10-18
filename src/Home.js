@@ -9,12 +9,12 @@ import style from "./home.module.css";
 function Home(){
 
     return(
-        <div>
+        <div >
             <header className={style.header}>
 
             </header>
 
-            <section className="py-5">
+            <section className={style.sect}>
                 <div className="container">
                 <h1>Section Heading</h1>
                 <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -98,7 +98,7 @@ function Home(){
                 </div>
             </section>
 
-        <section className="py-5">
+        <section className={style.sect}>
             <div className="container">
             <h1>Section Heading</h1>
             <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

@@ -1,4 +1,6 @@
 import React from 'react';
+import './App.css';
+
  
 
 
@@ -7,10 +9,10 @@ import React from 'react';
 function Footer(){
 
     return(
-        <div >
-           <footer class="py-5 bg-dark">
+        <div className="container">
+           <footer class="footer fixed-bottom" >
            <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; King Bere Designs 2019</p>
+                <p class="m-0 text-center" style={{padding:"20px"}}>ALC 4.0 &copy; Project Phase || GCP Cloud Path || Elisha Bere</p>
            </div>
            </footer>
 

@@ -1,4 +1,6 @@
 import React from 'react';
+import "./App.css";
+import {Link} from 'react-router-dom';
  
 
 
@@ -7,159 +9,90 @@ import React from 'react';
 function Rent(){
 
     return(
-            
-        <div className="container">
+        <div className="section" id="booking">
+            <div className="section-center">
+            <div className="container">
+				<div className="row" >
+					<div className="booking-form">
+						<form>
+                            <div className="form-group">
+                                <div className="form-row">
+                                    <div className="col-md-6">
+                                        <div className="form-label">
+                                        <label for="firstName">Full name</label>
+                                        <input type="text" id="fullName" className="form-control" placeholder="First name" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="form-label">
+                                        <label for="firstName">Email</label>
+                                        <input type="email" id="email" className="form-control" placeholder="Email" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="form-row">
+                                    <div className="col-md-12">
+                                        <div className="form-label">
+                                        <label for="firstName">Phone</label>
+                                        <input type="tel" id="phonenum" className="form-control" placeholder="Phone number" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="form-row">
+                                    <div className="col-md-12">
+                                        <div className="form-label">
+                                        <label for="firstName">Pickup Loacaton</label>
+                                        <input type="text" id="city" className="form-control" placeholder="Pickup Location" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="form-row">
+                                    <div className="col-md-12">
+                                        <div className="form-label">
+                                        <label for="firstName">Where to?</label>
+                                        <input type="text" id="destination" className="form-control" placeholder="Destination" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                </div>
 
-        <div className="row">
-
-        <div className="col-lg-3">
-
-            <h1 className="my-4">C</h1>
-            <div className="list-group">
-            <a href="#" className="list-group-item">Category 1</a>
-            <a href="#" className="list-group-item">Category 2</a>
-            <a href="#" className="list-group-item">Category 3</a>
-            </div>
-
-        </div>
-
-        <div className="col-lg-9">
-
-            <div id="carouselExampleIndicators" className="carousel slide my-4" data-ride="carousel">
-            <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div className="carousel-inner" role="listbox">
-                <div className="carousel-item active">
-                <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide"></img>
-                </div>
-                <div className="carousel-item">
-                <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide"></img>
-                </div>
-                <div className="carousel-item">
-                <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide"></img>
-                </div>
-            </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
-            </a>
-            </div>
-
-            <div className="row">
-
-            <div className="col-lg-4 col-md-6 mb-4">
-                <div className="card h-100">
-                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                <div className="card-body">
-                    <h4 className="card-title">
-                    <a href="#">Item One</a>
-                    </h4>
-                    <h5>$24.99</h5>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                </div>
-                <div className="card-footer">
-                    <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-                <div className="card h-100">
-                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                <div className="card-body">
-                    <h4 className="card-title">
-                    <a href="#">Item Two</a>
-                    </h4>
-                    <h5>$24.99</h5>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div className="card-footer">
-                    <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-                <div className="card h-100">
-                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                <div className="card-body">
-                    <h4 className="card-title">
-                    <a href="#">Item Three</a>
-                    </h4>
-                    <h5>$24.99</h5>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                </div>
-                <div className="card-footer">
-                    <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-                <div className="card h-100">
-                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                <div className="card-body">
-                    <h4 className="card-title">
-                    <a href="#">Item Four</a>
-                    </h4>
-                    <h5>$24.99</h5>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                </div>
-                <div className="card-footer">
-                    <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-                <div className="card h-100">
-                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                <div className="card-body">
-                    <h4 className="card-title">
-                    <a href="#">Item Five</a>
-                    </h4>
-                    <h5>$24.99</h5>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div className="card-footer">
-                    <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-                <div className="card h-100">
-                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                <div className="card-body">
-                    <h4 className="card-title">
-                    <a href="#">Item Six</a>
-                    </h4>
-                    <h5>$24.99</h5>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                </div>
-                <div className="card-footer">
-                    <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-                </div>
-            </div>
-
-            </div>
-            
-
-        </div>
-        
-
-        </div>
-
-
-        </div>
+                                <div className="form-row">
+                                    <div className="col-sm-6">
+                                        <div className="form-label">
+                                        <label for="firstName">Pickup Date</label>
+                                        <input type="date" id="date" className="form-control" placeholder="Destination" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-3">
+                                        <div className="form-label">
+                                        <label for="PickupTime">Time</label>
+                                        <input type="ptime" id="picktime" className="form-control" placeholder="Destination" required="required" autofocus="autofocus"></input>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-3">
+                                        <div className="form-label">
+                                        <label for="AM/PM">AM/PM</label>
+                                            <select className="form-control">
+                                                <option>AM</option>
+                                                <option>PM</option>
+                                            </select>
+                                            <span className="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+							
+							<div className="form-btn">
+                            <Link to="choose">
+								<button className="submit-btn">Book Now</button>
+                            </Link>
+							</div>
+					    </form>
+					</div>
+				</div>
+			</div>
+		    </div>
+	    </div>
     );
 }
 
