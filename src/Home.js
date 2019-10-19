@@ -11,7 +11,8 @@ function Home(){
     return(
         <div >
             <header className={style.header}>
-                <h1>Welcome</h1>
+                <h1 className={style.welcom} >Travel Planet Earth With The Best Fleet</h1>
+                <button className={style.home_btn} href="#">EXPLORE</button>
             </header>
 
             <section className={style.sect}>
