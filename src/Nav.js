@@ -10,7 +10,7 @@ function Nav(){
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
           <Link to='/'>
-          <h1 className="navbar-brand" href="/">Space Shuttle</h1>
+          <h1 className="navbar-brand">Space Shuttle</h1>
           </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

@@ -12,7 +12,7 @@ function Home(){
         <div >
             <header className={style.header}>
                 <h1 className={style.welcom} >Travel Planet Earth With The Best Fleet</h1>
-                <button className={style.home_btn} href="#">EXPLORE</button>
+                <button className={style.home_btn} >EXPLORE</button>
             </header>
 
             <section className={style.sect}>

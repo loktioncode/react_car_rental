@@ -38,10 +38,10 @@ function Vip(){
                 
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                            <a ><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a >Item One</a>
                                 </h4>
                                 <h5>$24.99</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -54,10 +54,10 @@ function Vip(){
                 
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                            <a ><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                <a href="#">Item Two</a>
+                                <a >Item Two</a>
                                 </h4>
                                 <h5>$24.99</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
@@ -70,10 +70,10 @@ function Vip(){
 
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                            <a ><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                <a href="#">Item Three</a>
+                                <a >Item Three</a>
                                 </h4>
                                 <h5>$24.99</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -86,10 +86,10 @@ function Vip(){
                 
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                            <a ><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                <a href="#">Space X amazon 2</a>
+                                <a >Space X amazon 2</a>
                                 </h4>
                                 <h5>$24.99</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>

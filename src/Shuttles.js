@@ -24,7 +24,7 @@ function ChooseShuttle(){
                                             <div class="carousel-item active choose">
                                                 <div className="col-md-12">
                                                     <div className="card h-100 shuttlecard">
-                                                        <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                                        <a ><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                                                         <div className="card-body">
                                                         <h4 className="card-title">
                                                             <a className="shuttle_title">Space Shuttle 1</a>
@@ -45,14 +45,14 @@ function ChooseShuttle(){
                                                             <a ><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                                                             <div className="card-body">
                                                             <h4 className="card-title">
-                                                                <a href="#">Car Two</a>
+                                                                <a >Car Two</a>
                                                             </h4>
                                                             <h5>$24.99</h5>
                                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                                             </div>
                                                             <div className="card-footer">
                                                             <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                                            <button className="select_shuttle" href="#" style={{float:"right"}}>Select</button>
+                                                            <button className="select_shuttle"  style={{float:"right"}}>Select</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -63,7 +63,7 @@ function ChooseShuttle(){
                                                             <a ><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
                                                             <div className="card-body">
                                                             <h4 className="card-title">
-                                                                <a href="#">Space Car 3</a>
+                                                                <a >Space Car 3</a>
                                                             </h4>
                                                             <h5>$24.99</h5>
                                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
