@@ -15,22 +15,20 @@ function Vvip(){
     const [cars] = useContext(CarContext); //defining which context to be used in this case CarContext is used
 
     return(
-        <div class="container class_car">
+        <div class="class_car">
 
-                <div class="row">
+                <div class="row row_style">
             
-                    <div class="col-lg-3">
-                
-                        <h1 class="my-4">Our Fleet</h1>
-                        <div class="list-group">
+                <div className="col-lg-3 sidenav" >
+                        <div className="list-group">
                             <Link to="/garage">
-                                <a class="list-group-item">All</a>
+                                <p className="list-group-item">All</p>
                             </Link>
                             <Link to="/vip">
-                            <a class="list-group-item">VIP</a>
+                            <p className="list-group-item">VIP</p>
                             </Link>
                             <Link to="/vvip">
-                            <a class="list-group-item">VVIP</a>
+                            <p className="list-group-item">VVIP</p>
                             </Link>
                         
                         </div>

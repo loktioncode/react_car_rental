@@ -1,4 +1,6 @@
 import React from 'react';
+import './App.css';
+import InfoBtn from './Infobtn';
  
 
 
@@ -19,6 +21,7 @@ function VvipCar(props){
                 </div>
                 <div className="card-footer">
                     <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                    <InfoBtn id={props.id} />
                 </div>
                 </div>
             </div>

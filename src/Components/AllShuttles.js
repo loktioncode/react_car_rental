@@ -1,17 +1,15 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import InfoBtn from './Infobtn';
+import './App.css';
  
 
 
 //this below is our component that returns JSX to index.html 
-function Car(props){
-
+function AllShuttles(props){
     return(
         <div className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100">
-                <Link to="/carinfo">
-                   <img className="card-img-top" src={props.image} alt=""></img>
-                </Link>
+            <a ><img className="card-img-top" src={props.image} alt=""></img></a>
             <div className="card-body">
                 <h4 className="card-title">
                 <a >{props.model}</a>
@@ -21,12 +19,11 @@ function Car(props){
             </div>
             <div className="card-footer">
                 <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <InfoBtn id={props.id} />
             </div>
             </div>
         </div>
     );
 }
 
-
-
-export default Car;
+export default AllShuttles;

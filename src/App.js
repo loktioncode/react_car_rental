@@ -12,7 +12,7 @@ import ChooseShuttle from './Components/Shuttles';
 import Vip from './Components/Vip';
 import Vvip from './Components/Vvip';
 import {CarProvider} from './Components/CarContext';
-import Info from './Components/CarInfo';
+import CarInfo from './Components/CarInfo';
 
 
 
@@ -28,12 +28,12 @@ function App(){
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/garage" exact component={Garage} />
+                        <Route path="/garage/:id" component={CarInfo} />
                         <Route path="/services" exact component={Services} />
                         <Route path="/rentcar" exact component={Rent} />
                         <Route path="/choose" exact component={ChooseShuttle} />
                         <Route path="/vip" exact component={Vip} />
                         <Route path="/vvip" exact component={Vvip} />
-                        
                     </Switch>
 
                 <Footer />
