@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
  
 
 
@@ -8,7 +9,9 @@ function Car(props){
     return(
         <div className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100">
-            <a ><img className="card-img-top" src={props.image} alt=""></img></a>
+                <Link to="/carinfo">
+                   <img className="card-img-top" src={props.image} alt=""></img>
+                </Link>
             <div className="card-body">
                 <h4 className="card-title">
                 <a >{props.model}</a>

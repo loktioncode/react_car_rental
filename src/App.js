@@ -12,6 +12,7 @@ import ChooseShuttle from './Components/Shuttles';
 import Vip from './Components/Vip';
 import Vvip from './Components/Vvip';
 import {CarProvider} from './Components/CarContext';
+import Info from './Components/CarInfo';
 
 
 
@@ -32,6 +33,7 @@ function App(){
                         <Route path="/choose" exact component={ChooseShuttle} />
                         <Route path="/vip" exact component={Vip} />
                         <Route path="/vvip" exact component={Vvip} />
+                        
                     </Switch>
 
                 <Footer />
