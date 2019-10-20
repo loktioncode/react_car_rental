@@ -8,7 +8,7 @@ import './App.css';
 const InfoBtn = (props) => {
 
     return(
-        <Link to ={`/garage/${props.id}`}>
+        <Link to ={`/garage/${props.id}`}> 
         <button className="btn btn-secondary info_btn">More</button>
         </Link>
     );

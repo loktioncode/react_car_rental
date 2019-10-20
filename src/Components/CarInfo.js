@@ -15,7 +15,7 @@ function CarInfo({match}){
 
         if (cars[i]["id"] == selectedCar) {
             return(
-                <div >
+                <div className="container ">
                     <h1>CAR INFO  for {cars[i]["model"]}</h1>
                     <img src={cars[i]["image"]}></img>   
                 </div>
