@@ -9,7 +9,13 @@ function AllShuttles(props){
     return(
         <div className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100">
-            <a ><img className="card-img-top" src={props.image} alt=""></img></a>
+            <a ><img className="card-img-top" src={props.image} alt=""></img>
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </a>
             <div className="card-body">
                 <h4 className="card-title">
                 <a >{props.model}</a>

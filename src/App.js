@@ -35,7 +35,6 @@ function App(){
                         <Route path="/vip" exact component={Vip} />
                         <Route path="/vvip" exact component={Vvip} />
                     </Switch>
-
                 <Footer />
             </div>
             </Router>
