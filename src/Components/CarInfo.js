@@ -14,10 +14,11 @@ function CarInfo({match}){
     for (let i = 0; i < cars.length; i++) {
 
         if (cars[i]["id"] == selectedCar) {
+            
             return(
                 <div className="container ">
                     <h1>CAR INFO  for {cars[i]["model"]}</h1>
-                    <img src={cars[i]["image"]}></img>   
+                    <img src={cars[i]["image"]} alt="car"></img>   
                 </div>
             ); 
         }

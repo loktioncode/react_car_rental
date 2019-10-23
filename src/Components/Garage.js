@@ -32,10 +32,10 @@ const Garage = () => { //arrow function
                     </div>
 
                     <div className="col-lg-9 garage-items">
-                    <div class="row">
+                    <div className="row">
                 
                         {cars.map(car => (
-                            <AllShuttles model ={car.model} price={car.price} id={car.id} image={car.image} category = {car.category}/>
+                            <AllShuttles key={car.id} model ={car.model} price={car.price} id={car.id} image={car.image} category = {car.category}/>
                         ))}
 
                     </div>

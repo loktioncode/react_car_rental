@@ -59,6 +59,16 @@ export const CarProvider = props => {
             muridzi: "Elisha"
             
         },
+        {
+            category: "Vvip",
+            passengers: 5, 
+            price: 200, 
+            id: 6, 
+            model: "Rabs 323",
+            image: "http://placehold.it/700x400",
+            muridzi: "Elisha"
+            
+        },
     ]);
 
 
