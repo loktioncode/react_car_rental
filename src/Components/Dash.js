@@ -24,7 +24,7 @@ const DashBoard = () => {
             );
         } else if(users[u]["password"] !== creds.password) {
             return(
-                <div> className="container"
+                <div className="container"> 
                     <h1>
                         wrong password
                     </h1>
