@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css";
-import {Link} from 'react-router-dom';
+
  
 
 
@@ -83,9 +83,9 @@ function Rent(){
                             </div>
 							
 							<div className="form-btn">
-                            <Link to="choose">
+                            
 								<button className="submit-btn">Book Now</button>
-                            </Link>
+                            
 							</div>
 					    </form>
 					</div>

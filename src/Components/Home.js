@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import style from "./home.module.css";
  
 
@@ -11,8 +12,10 @@ function Home(){
     return(
         <div >
             <header className={style.header}>
-                <h1 className={style.welcom} >Travel Planet Earth With The Best Fleet</h1>
-                <button className={style.home_btn} >EXPLORE</button>
+                <h1 className={style.welcom} >Sign Up your Car and Start Earning!</h1>
+                <Link to="/register">
+                    <button className={style.home_btn} >SIGN UP!</button>
+                </Link>
             </header>
 
             <section className={style.sect}>

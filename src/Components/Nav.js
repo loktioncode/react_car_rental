@@ -28,7 +28,7 @@ function Nav(){
               
               <Link to="/rentcar">
               <li className="nav-item active">
-                Bookings
+                Book Car
               </li>
               </Link>
 
@@ -39,9 +39,9 @@ function Nav(){
               </li>
               </Link>
 
-              <Link to="/services">
+              <Link to="/login">
               <li className="nav-item active">
-                Services
+                Login
               </li>
               </Link>
 

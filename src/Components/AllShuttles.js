@@ -10,13 +10,13 @@ function AllShuttles(props){
     return(
         <div  className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100">
-            <a ><img className="card-img-top" src={props.image} alt=""></img>
+            <img className="card-img-top" src={props.image} alt=""></img>
                 <div className="d-flex justify-content-center my_loader">
                     <div className="spinner-border" role="status">
                         <span className="sr-only">Loading...</span>
                     </div>
                 </div>
-            </a>
+            
             <div className="card-body">
                 <h4 className="card-title">
                 <a >{props.model} </a>

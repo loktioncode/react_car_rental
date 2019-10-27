@@ -33,6 +33,13 @@ li{
 
 }
 
+.reg{
+	color: #c0a450;
+	padding-top: 20px;
+	font-size: 13px;
+	text-align: center;
+}
+
 .my_loader{
 	background: #101113 !important;
 	color: #ffc001;
