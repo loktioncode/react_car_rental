@@ -1,17 +1,25 @@
 import React, {useState, useContext} from 'react';
-import {KeyContext} from './AccessContext';
 import './App.css';
 import {Link} from 'react-router-dom';
+import {UserContext} from './UserContext'; 
  
 
 
 //this below is our component that returns JSX to index.html 
 function User(){
 
+    const [users] = useContext(UserContext);
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    
 
-    const [ setCreds] = useContext(KeyContext); //this is the context where we save new user
+    const [creds, setCreds] = useState([
+        {
+            email:"",
+            password: ""
+        }
+    ]); 
 
 
     const updateEmail = (e) => {
@@ -24,8 +32,12 @@ function User(){
 
 
     const Login = (e) => {
-        setCreds({ email:email,password:password }); 
+        e.preventDefault();
+        setCreds([{ email:email,password:password }]); 
+
     };
+
+    console.log(creds);
 
 
     return(
@@ -42,7 +54,7 @@ function User(){
                                     <div className="col-md-12">
                                         <div className="form-label">
                                         <label for="Email">Email</label>
-                                        <input type="tel" id="Email" className="form-control" placeholder="Email" required="required" autofocus="autofocus" value={email} onChange={updateEmail}></input>
+                                        <input type="email" id="Email" className="form-control" placeholder="Email" required="required" autofocus="autofocus" value={email} onChange={updateEmail}></input>
                                         </div>
                                     </div>
                                 </div>
@@ -58,13 +70,13 @@ function User(){
                                 
                             </div>
 							
-                            <Link to="/dashboard">
+                            
                                 <div className="form-btn">
                             
                                     <button className="btn btn-warning col-md-12">Register</button>
                         
                                 </div>
-                            </Link>
+                            
 							
                             <Link to="/register">
                                 <p className="reg">

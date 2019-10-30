@@ -15,8 +15,9 @@ import {CarProvider} from './Components/CarContext';
 import CarInfo from './Components/CarInfo';
 import NewUser from './Components/Register';
 import { UserProvider } from './Components/UserContext';
-import {KeyProvider} from './Components/AccessContext';
 import DashBoard from './Components/Dash';
+
+
 
 
 
@@ -24,6 +25,7 @@ import DashBoard from './Components/Dash';
 function App(){
 
     return(
+        
         
         <UserProvider>
             <CarProvider> 
@@ -39,16 +41,14 @@ function App(){
                             <Route path="/vip" exact component={Vip} />
                             <Route path="/vvip" exact component={Vvip} />
                             <Route path="/register" exact component={NewUser} />
-                            
-                            <KeyProvider>
-                                <Route path="/dashboard" exact component={DashBoard} />
-                            </KeyProvider>
+                            <Route path="/dashboard" exact component={DashBoard} />
                         </Switch>
                     <Footer />
                 </div>
                 </Router>
             </CarProvider>
         </UserProvider>
+        
     );
 }
 

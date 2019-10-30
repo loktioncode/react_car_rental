@@ -90,6 +90,11 @@ li{
 
 }
 
+.navbar-nav{
+	background-color: #101113 !important;
+	color: #fff;
+}
+
 footer{
 	background-color: #101113 !important;
 
@@ -299,5 +304,45 @@ li{
 	border-radius: 3px;
 	text-transform: uppercase;
 }
+
+.rowlist{
+	background-color: #fff;
+}
+
+.myrow{
+	padding:40px;
+}
+aside{
+	margin-left: 20px;
+	margin-right:60px;
+	min-height: 500px;
+	padding: 25px;
+	background-color: #fff;
+}
+
+.dashcard{
+	min-width: 280px;
+	height: 280px;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.dashcenter{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.btn_menu{
+	width:100%;
+	margin-right: 80px;
+	display: inline-flex;
+	align-items: center;
+	min-height: 40px;
+	padding: 25px;
+	margin-left: 400px;
+}
+
 
 
